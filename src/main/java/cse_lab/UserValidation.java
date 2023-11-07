@@ -9,9 +9,13 @@ public class UserValidation {
 		String UID=rb.getString("uname");
 		String PSW=rb.getString("psw");
 		if(inUID.equals(UID)&&inPSW.equals(PSW))
+		{
 			return true;
+		}
 		else
+		{
 			return false;
+		}
 	}
 
 }
